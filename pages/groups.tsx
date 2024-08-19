@@ -5,6 +5,8 @@ import {navLinksGroupsPage} from "@/data";
 import PageTitle from "@/components/pageTitle";
 import useLoading from "@/hooks/useLoading";
 import LoadingWrapper from "@/components/loadingWrapper";
+
+
 const Groups = () => {
     const {isLoading} = useLoading()
     return (
